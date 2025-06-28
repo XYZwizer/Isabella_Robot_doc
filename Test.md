@@ -21,7 +21,7 @@ any relivent information that dose not fit any other header
 - such as
 - dogs are fluffy
 
-!speculation: loves you
+!speculation: loves you (any speculation should be noted as such)
 
 ## troubleshooting
 
