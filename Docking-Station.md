@@ -1,5 +1,7 @@
 # Docking Station
 
+note: our unit did not come with docking stations and we do not currently have any
+
 ![Docking Station 1](../media/ARI-General-Docking-station-image1.png)
 
 ![Docking Station 2](../media/ARI-General-Docking-station-image2.png)
