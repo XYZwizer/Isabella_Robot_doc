@@ -1,5 +1,7 @@
 # Lidar
 
+note: our unit doesn't have this part
+
 | info.           | Description |
 | --------------- | ----------- |
 | stock component | Yes         |
