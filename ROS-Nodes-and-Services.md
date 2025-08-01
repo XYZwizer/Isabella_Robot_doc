@@ -4,6 +4,8 @@
 
 This document summarizes the key ROS nodes, topics, and services used by the ARI robot, with examples and troubleshooting tips.
 
+note: ros messages are in raw data and ros usually presents them to users as yaml, but our robot has an optional interface for access topics by standerd http (post and get) so that it can interact with the web based touch screen it exposes the data as json as seem below
+
 ## Example: Publishing to a Topic
 
 To publish a message to a topic (e.g., /chatter):
