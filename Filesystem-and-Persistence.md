@@ -49,17 +49,31 @@ tmpfs            1574040        8   1574032   1% /run/user/1000
 
 To edit configuration files (e.g., PID settings):
 
-1. Remount filesystem as read-write:
+1. go into admin mode:
+   ```bash
+   su
+   ```
+
+2. Remount filesystem as read-write and enter it:
    ```bash
    sudo rw
+   chroot /ro
    ```
-2. Edit the file (using `vi` if `nano` is not available):
+3. Edit the file or install pkg (using `vi` if `nano` is not available):
    ```bash
    sudo vi /opt/pal/gallium/share/ari_controller_configuration/config/pids_v2.yaml
    ```
-3. Remount as read-only:
+4. when done exit the filesystem:
+   ```bash
+   exit
+   ```
+5. Remount as read-only:
    ```bash
    sudo ro
+   ```
+6. then exit admin mode:
+   ```bash
+   exit
    ```
 
 ## Troubleshooting
