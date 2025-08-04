@@ -19,6 +19,14 @@ Social perception enables the ARI robot to detect, track, and interact with huma
 - Tracks multiple people in real time.
 - Integrates with ARI's navigation and interaction systems.
 
+related ros nodes inclued but may not be limeted to:
+- /hri_face_detect
+- /hri_face_identification
+- [/hri_fullbody](./ros_nodes/hri_fullbody_node)
+- /hri_overlay_throttle
+- /hri_person_manager
+- /hri_visualization
+
 ## troubleshooting
 
 ### Social perception not working
